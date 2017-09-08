@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hatırlatıcı</string>
+    <string name="app_name_ekle">Yeni Ekle</string>
+    <string name="app_name_goster">Kampanya Detayı</string>
+    <string name="btn_ekle">Ekle</string>
+    <string name="btn_geri">Geri</string>
+    <string name="btn_sil">Sil</string>
+    <string name="btn_kapat">Kapat</string>
+    <string name="kmp_bas">Başlangıç</string>
+    <string name="kmp_bit">Bitiş</string>
+    <string name="bns_bas">Bonus Başlangıç</string>
+    <string name="bns_bit">Bonus Bitiş</string>
+    <string name="bns_ttr">Bonus Tutar</string>
+    <string name="txt_kampanya">Kampanya İçeriği</string>
+    <string name="txt_banka">Banka</string>
+    <string name="soru">Bonus harcama tarihi farklı mı?</string>
+
+    <string-array name="BANKALAR">
+        <item>Alternatif Bank</item>
+        <item>Citibank</item>
+        <item>DenizBank</item>
+        <item>Finansbank</item>
+        <item>HSBC</item>
+        <item>ING Bank</item>
+        <item>Odeabank</item>
+        <item>Tekstilbank</item>
+        <item>Akbank</item>
+        <item>Anadolubank</item>
+        <item>Fibabanka</item>
+        <item>Şekerbank</item>
+        <item>Türk Ekonomi Bankası</item>
+        <item>Garanti Bankası</item>
+        <item>İş Bankası</item>
+        <item>Yapı ve Kredi Bankası</item>
+        <item>Adabank</item>
+        <item> Bank Asya </item>
+        <item>Alpha Bank</item>
+        <item>Ziraat Bankası</item>
+        <item>Halk Bankası</item>
+        <item>Vakıflar Bankası</item>
+        <item> Albaraka Türk </item>
+        <item> Kuveyt Türk</item>
+        <item>İller Bankası</item>
+    </string-array>
+
+</resources>

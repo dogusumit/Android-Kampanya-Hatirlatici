@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <AutoCompleteTextView
+                android:id="@+id/edBanka"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:hint="@string/txt_banka" />
+
+            <EditText
+                android:id="@+id/edBas"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="@string/kmp_bas" />
+
+            <EditText
+                android:id="@+id/edBit"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="@string/kmp_bit" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edBns"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:gravity="right"
+                    android:hint="@string/bns_ttr"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:enabled="false"
+                    android:hint="TL" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edKampanya"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:ems="10"
+            android:hint="@string/txt_kampanya"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/soru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/soru" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edBnsBas"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:hint="@string/bns_bas" />
+
+        <EditText
+            android:id="@+id/edBnsBit"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:hint="@string/bns_bit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_butonlar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnEkle"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_add2"
+            android:text="@string/btn_ekle" />
+
+        <Button
+            android:id="@+id/btnSil"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_delete"
+            android:text="@string/btn_sil"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnGeri"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_back2"
+            android:text="@string/btn_geri" >
+
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
